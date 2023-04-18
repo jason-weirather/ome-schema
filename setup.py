@@ -15,7 +15,7 @@ setup(
         # Add any package dependencies here
     ],
     author="Jason L Weirather",
-    author_email="JasonL_Weirather@dfci.harvard.edu",
+    author_email="jason.weirather@gmail.com",
     description="A Python package for accessing local OME schema files",
     long_description=long_description,
     long_description_content_type="text/markdown",
