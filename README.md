@@ -11,7 +11,13 @@ This Python package contains a copy of the OME (Open Microscopy Environment) XML
 
 ## License
 
-The OME XML schema (`2016-06/ome.xsd`) is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/). You are free to share and adapt the schema, as long as you provide appropriate attribution. For more information, please see the `LICENSE.txt` file.
+### Python Package
+
+This Python package is licensed under the [MIT License](https://opensource.org/licenses/MIT). For more information, please see the `LICENSE` file.
+
+### OME XML Schema
+
+The OME XML schema (`2016-06/ome.xsd`) is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/). You are free to share and adapt the schema, as long as you provide appropriate attribution. For more information see the schema document for details.
 
 ## Attribution
 
