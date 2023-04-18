@@ -1,12 +1,13 @@
-# OME Schema Repository
+# OME Schema Python Package
 
-This repository contains a copy of the OME (Open Microscopy Environment) XML schema, which is used to define the structure of OME-XML metadata for biological imaging data.
+This Python package contains a copy of the OME (Open Microscopy Environment) XML schema, which is used to define the structure of OME-XML metadata for biological imaging data.
 
 ## Contents
 
 - `ome.xsd`: The OME XML schema definition file.
 - `LICENSE.txt`: The license file for the content of this repository.
 - `README.md`: This README file, containing information about the repository and its contents.
+- `ome-schema.py`: The main Python script to access the OME schema path.
 
 ## License
 
@@ -18,7 +19,22 @@ The OME XML schema is developed and maintained by the [OME Consortium](https://w
 
 ## Usage
 
-To use the OME XML schema in your project, download the `ome.xsd` file and reference it in your XML documents as needed. For more information about OME-XML and working with the schema, please refer to the [OME Data Model and File Formats documentation](https://docs.openmicroscopy.org/ome-model/).
+To use the OME XML schema in your Python project, install the `ome-schema` package and use the `get_ome_schema_path()` function from the `ome-schema` module:
+
+```python
+from omeschema import get_ome_schema_path
+
+schema_path = get_ome_schema_path()
+```
+For more information about OME-XML and working with the schema, please refer to the [OME Data Model and File Formats documentation](https://docs.openmicroscopy.org/ome-model/)
+
+## Installation
+
+To install the ome-schema package, use pip:
+
+```bash
+pip install ome-schema
+```
 
 ## Contributing
 
